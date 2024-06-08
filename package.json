@@ -7,7 +7,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon run server.js"
+    "start": "nodemon run server.js",
+    "dev": "node run server.js"
   },
   "dependencies": {
     "axios": "^1.7.2",
