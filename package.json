@@ -7,6 +7,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "dev": "nodemon run server.js"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "libsodium-wrappers": "^0.7.15",
     "mongoose": "^8.5.3",
+    "nodemon": "^3.1.7",
     "prop-types": "^15.8.1",
     "socket.io": "^4.7.5"
   }
